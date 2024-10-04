@@ -1,9 +1,228 @@
-<mxfile host="app.diagrams.net" modified="2024-10-04T13:09:24.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.2.5" etag="rvrJl7i2rdg0NkLRX7jA" type="github">
+<mxfile host="app.diagrams.net" modified="2024-10-04T13:45:11.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" etag="AN7vLBTVnYmhiOYLXb7k" version="24.2.5" type="github">
   <diagram name="Página-1" id="27uzTtbmgR4kFvOY-4x-">
-    <mxGraphModel>
+    <mxGraphModel dx="6077" dy="3819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2I-E-M-36WyYrOas9JVN-3" value="&lt;p style=&quot;box-sizing: border-box; margin: 0cm; border-radius: 0px !important; color: var(--color-content-text); font-size: 12pt; font-family: TimesNewRoman, serif;&quot;&gt;Considere o seguinte caso:&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0cm; border-radius: 0px !important; color: var(--color-content-text); font-size: 12pt; font-family: TimesNewRoman, serif;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0cm; border-radius: 0px !important; color: var(--color-content-text); font-size: 12pt; font-family: TimesNewRoman, serif; text-align: justify;&quot;&gt;Uma empresa quer implantar um sistema para organizar e controlar as ordens de serviços para a manutenção de seus computadores. Para isso, precisa de um cadastro com todos os funcionários (com o número do cadastro, nome, CPF, data de nascimento, telefone residencial e ramal da empresa), que devem requisitar uma ordem de serviço. Ainda, deve possuir um cadastro dos responsáveis pela manutenção (que, além dos dados similares ao dos funcionários, deve ter ainda a área de atuação e o período de trabalho), que devem ficar responsáveis pelas ordens de serviço. Por fim, deve haver o registro das ordens de serviços propriamente (com número da ordem, tipo do problema e&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;status&lt;/i&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;de andamento), sendo que para cada ordem de serviço deve haver apenas uma pessoa que requisitou e apenas uma responsável por tratá-la&lt;span style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0cm; border-radius: 0px !important; color: var(--color-content-text); font-size: 12pt; font-family: TimesNewRoman, serif; text-align: justify;&quot;&gt;&lt;br style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0cm; border-radius: 0px !important; color: var(--color-content-text); font-size: 12pt; font-family: TimesNewRoman, serif; text-align: justify;&quot;&gt;&lt;/p&gt;&lt;ol style=&quot;box-sizing: border-box; border-radius: 0px !important; margin: 12px 0px; padding-left: 32px;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; border-radius: 0px !important; list-style-type: &amp;quot;a)&amp;quot;;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;Faça o Diagrama de Entidade Relacionamento (DER) do caso citado;&lt;br style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ol style=&quot;box-sizing: border-box; border-radius: 0px !important; margin: 12px 0px; padding-left: 32px;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; border-radius: 0px !important; list-style-type: &amp;quot;b)&amp;quot;;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;Faça o mapeamento do DER encontrado para o modelo físico.&lt;br style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px; border-radius: 0px !important; color: var(--color-content-text);&quot;&gt;&lt;/p&gt;&lt;div style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;Pode ser feito usando aplicativos, como o PowerPoint, ou manualmente, com a entrega das fotos do Diagrama e do mapeamento.&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box; border-radius: 0px !important;&quot;&gt;&lt;br style=&quot;box-sizing: border-box; border-radius: 0px !important; color: rgb(36, 36, 36); font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-950" width="1250" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-17" value="FUNCIONÁRIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="-150" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-18" value="Nome" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-390" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-19" value="&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;CPF&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-80" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-23" value="Telefone Residencial" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="-170" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-25" value="Ramal da Empresa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-30" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-27" value="&lt;u&gt;Nº Cadastro&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="-280" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-29" value="Data de Nascimento" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="10" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-33" value="&lt;div style=&quot;text-align: left;&quot;&gt;REQUISITAR ORDEM&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-485" width="330" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-40" value="RESPONSÁVEL MANUTENÇÃO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-41" value="Área de Atuação" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="280" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-42" value="Período do Trabalho" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="921.25" y="-20" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-44" value="REGISTRO DE ORDEM" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="892.5" y="-150" width="157.5" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-45" value="&lt;u&gt;Cod Manutenção&amp;nbsp;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-46" value="&lt;u&gt;CPF&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-47" value="Data de Nascimento" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="280" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-48" value="Telefone Residencial" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="90" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-49" value="Ramal da Empresa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="280" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-50" value="ORDEM DE SERVIÇO&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="-375" width="225" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-52" value="Nº Ordem" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1186" y="-520" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-54" value="Tipo_Prob" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="-385" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-55" value="Status" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="-230" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-58" value="Nome" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-62" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="815" y="-345" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-64" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="857.5" y="-140" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-68" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-385" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-74" value="" style="endArrow=none;html=1;rounded=0;exitX=0.982;exitY=0.626;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.494;entryY=1.273;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-25" target="2I-E-M-36WyYrOas9JVN-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="-150" as="sourcePoint" />
+            <mxPoint y="-200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-260" y="-110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-75" value="" style="endArrow=none;html=1;rounded=0;exitX=0.826;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-17" target="2I-E-M-36WyYrOas9JVN-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="-150" as="sourcePoint" />
+            <mxPoint y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-76" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-17" target="2I-E-M-36WyYrOas9JVN-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="-150" as="sourcePoint" />
+            <mxPoint y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-77" value="" style="endArrow=none;html=1;rounded=0;entryX=0.358;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-27" target="2I-E-M-36WyYrOas9JVN-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="-150" as="sourcePoint" />
+            <mxPoint y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-78" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-23" target="2I-E-M-36WyYrOas9JVN-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="-150" as="sourcePoint" />
+            <mxPoint y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-79" value="" style="endArrow=none;html=1;rounded=0;entryX=0.63;entryY=0.969;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-17" target="2I-E-M-36WyYrOas9JVN-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="-150" as="sourcePoint" />
+            <mxPoint y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-80" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-17" target="2I-E-M-36WyYrOas9JVN-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="-150" as="sourcePoint" />
+            <mxPoint y="-200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-160" y="-335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-81" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.02;entryY=0.232;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-33" target="2I-E-M-36WyYrOas9JVN-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="-150" as="sourcePoint" />
+            <mxPoint x="640" y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-82" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.549;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-44" target="2I-E-M-36WyYrOas9JVN-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="-150" as="sourcePoint" />
+            <mxPoint x="640" y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-83" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="940" y="-215" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-84" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-50" target="2I-E-M-36WyYrOas9JVN-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="-310" as="sourcePoint" />
+            <mxPoint x="1040" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-85" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-50" target="2I-E-M-36WyYrOas9JVN-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="-310" as="sourcePoint" />
+            <mxPoint x="1040" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-86" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.829;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-50" target="2I-E-M-36WyYrOas9JVN-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="-310" as="sourcePoint" />
+            <mxPoint x="1040" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-87" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="190" as="sourcePoint" />
+            <mxPoint x="970" y="-60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="-60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-88" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.282;entryY=0.929;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-40" target="2I-E-M-36WyYrOas9JVN-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="190" as="sourcePoint" />
+            <mxPoint x="1040" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-89" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-40" target="2I-E-M-36WyYrOas9JVN-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="190" as="sourcePoint" />
+            <mxPoint x="1040" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-90" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="190" as="sourcePoint" />
+            <mxPoint x="1070" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-91" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.414;entryY=-0.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-40" target="2I-E-M-36WyYrOas9JVN-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="190" as="sourcePoint" />
+            <mxPoint x="1040" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-92" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-40" target="2I-E-M-36WyYrOas9JVN-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="190" as="sourcePoint" />
+            <mxPoint x="1040" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-93" value="" style="endArrow=none;html=1;rounded=0;exitX=0.442;exitY=1.057;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-40" target="2I-E-M-36WyYrOas9JVN-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="190" as="sourcePoint" />
+            <mxPoint x="1040" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-94" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-45" target="2I-E-M-36WyYrOas9JVN-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="190" as="sourcePoint" />
+            <mxPoint x="1040" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-95" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2I-E-M-36WyYrOas9JVN-46" target="2I-E-M-36WyYrOas9JVN-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="190" as="sourcePoint" />
+            <mxPoint x="1040" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2I-E-M-36WyYrOas9JVN-96" value="&#xa;&lt;p&gt;&lt;strong&gt;Mapeamento do DER para o modelo físico:&lt;/strong&gt;&lt;/p&gt;&#xa;&lt;p&gt;O mapeamento do DER para um modelo físico:&lt;/p&gt;&#xa;&lt;p&gt;&lt;strong&gt;Tabela Funcionario:&lt;/strong&gt;&lt;/p&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;NumeroCadastro (PK, INT)&lt;/li&gt;&#xa;&lt;li&gt;Nome (VARCHAR)&lt;/li&gt;&#xa;&lt;li&gt;CPF (CU, UK, INT)&lt;/li&gt;&#xa;&lt;li&gt;DataNascimento (DATE)&lt;/li&gt;&#xa;&lt;li&gt;TelefoneResidencial (VARCHAR)&lt;/li&gt;&#xa;&lt;li&gt;RamalEmpresa (INT)&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;p&gt;&lt;strong&gt;Tabela Responsavel Manutencao:&lt;/strong&gt;&lt;/p&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;NumeroCadastroMan (PK, INT)&lt;/li&gt;&#xa;&lt;li&gt;Nome (VARCHAR)&lt;/li&gt;&#xa;&lt;li&gt;CPF (CU, UK, INT)&lt;/li&gt;&#xa;&lt;li&gt;DataNascimento (DATE)&lt;/li&gt;&#xa;&lt;li&gt;TelefoneResidencial (VARCHAR)&lt;/li&gt;&#xa;&lt;li&gt;RamalEmpresa (INT)&lt;/li&gt;&#xa;&lt;li&gt;AreaAtuacao (VARCHAR)&lt;/li&gt;&#xa;&lt;li&gt;PeriodoTrabalho (VARCHAR)&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;p&gt;&lt;strong&gt;Tabela Ordem Servico:&lt;/strong&gt;&lt;/p&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;NumeroOrdem (PK, INT)&lt;/li&gt;&#xa;&lt;li&gt;TipoProblema (VARCHAR)&lt;/li&gt;&#xa;&lt;li&gt;StatusAndamento (VARCHAR)&lt;/li&gt;&#xa;&lt;li&gt;NumeroCadastroFunc (FK, INT)&lt;/li&gt;&#xa;&lt;li&gt;NumeroCadastroResp (FK, INT)&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;p&gt;&lt;strong&gt;Requisitar Ordem:&lt;/strong&gt;&lt;/p&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;NumeroCadastro (PK, INT)&lt;/li&gt;&#xa;&lt;li&gt;NumeroOrdem (PK, INT)&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&lt;p&gt;&lt;strong&gt;Registro de ordem:&lt;/strong&gt;&lt;/p&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;NumeroOrdem (PK, INT)&lt;/li&gt;&#xa;&lt;li&gt;NumeroCadastroMan (PK, INT)&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="-640" width="280" height="1350" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
